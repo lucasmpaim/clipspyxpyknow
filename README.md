@@ -29,7 +29,7 @@ docker-compose run python python ./run.py --type pyknow --track y
 ### Comparison
 Run:
 ```bash
-docker-compose run python python ./comparison.py
+docker-compose run --rm python python ./comparison_time.py
 ```
 And check the "img" folder with graphics
 
