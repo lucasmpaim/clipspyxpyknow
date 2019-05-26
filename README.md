@@ -33,6 +33,7 @@ docker-compose run --rm python python ./comparison_time.py
 ```
 And check the "img" folder with graphics
 
+![comparison graphic](https://github.com/lucasmpaim/clipspyxpyknow/blob/master/img/comparison.png)
 
 #### Notes:
 The clipspy is not installed with `requirements.txt` because a 
