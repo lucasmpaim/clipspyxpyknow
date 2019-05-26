@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  python:
+    command: python /app/clipspy_version/se.py
+    build:
+      dockerfile: ./compose/python/Dockerfile
+      context: .
+    volumes:
+      - ./:/app
